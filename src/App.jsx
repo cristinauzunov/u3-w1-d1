@@ -11,11 +11,13 @@ function App() {
 
   return (
     <>
-      <div>
-        <ButtonComponent content="1">ciao</ButtonComponent>
-        <ButtonComponent content="2">ciao</ButtonComponent>
-        <ButtonComponent content="3">ciao</ButtonComponent>
-        <ImageComponent src="https://placecats.com/400/400" alt="immagine" />
+    <div className="container">
+      <ImageComponent src="https://placecats.com/300/300" alt="immagine" />
+      <div className="buttons">
+      <ButtonComponent content="1">ciao</ButtonComponent>
+      <ButtonComponent content="2">ciao</ButtonComponent>
+      <ButtonComponent content="3">ciao</ButtonComponent>
+      </div>
       </div>
     </>
   );

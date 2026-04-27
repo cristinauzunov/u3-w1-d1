@@ -4,7 +4,7 @@
 //nome funzione === nome file
 
 const ButtonComponent = (props) => {
-  return <button>{props.content}</button>;
+  return <button className="btn">{props.content}</button>;
 };
 
 export default ButtonComponent;
